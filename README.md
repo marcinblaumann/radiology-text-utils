@@ -1,5 +1,7 @@
 # Radiology Text Utils
 
+![Tests](https://github.com/marcinblaumann/radiology-text-utils/actions/workflows/tests.yml/badge.svg)
+
 Small Python utilities for cleaning and normalizing radiology report text.
 
 This project explores simple, deterministic text-processing tools that can support radiology reporting workflows without modifying the medical meaning of the report.

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radiology-text-utils"
+version = "0.1.0"
+description = "Small Python utilities for cleaning and normalizing radiology report text."
+requires-python = ">=3.10"
+authors = [
+    { name = "Marcin Blaumann" }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

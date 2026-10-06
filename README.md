@@ -12,6 +12,8 @@ This project explores simple, deterministic text-processing tools that can suppo
 - normalization of punctuation spacing
 - normalization of numerical ranges
 - preservation of decimal notation
+- preservation of dates, times, ratios, URLs and spinal levels (e.g. `2024-03-15`, `12:30`, `1:2`, `C5-6`)
+- removal of spaces inside brackets and of non-breaking spaces
 - basic paragraph cleanup
 - no external dependencies
 
